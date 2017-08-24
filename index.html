@@ -1,69 +1,85 @@
 <!DOCTYPE html>
 <html>
-<head>
+<title>PoomizZZ World Eiei</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
-div.container {
-    width: 80%;
-    border: 1px solid #9C6742;
-    margin-left: 10%
-}
-
-header, footer {
-    padding: 3em;
-    color: white;
-    background-color: #9C6742;
-    clear: left;
-    text-align: center;
-}
-
-nav {
-    float: left;
-    max-width: 160px;
-    margin: 0;
-    padding: 1em;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-   
-nav ul a {
-    text-decoration: none;
-}
-
-article {    
-    border-left: 1px solid gray;
-    padding: 1em;
-    overflow: hidden;
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
 }
 </style>
-</head>
-<body background="bg.jpg">
-
-<div class="container">
-
-<header>
-    <title>Homework</title>
-   <h1> <font face="Engravers MT">My Profile</h1>
-</header>
-  
-<article>
-    <font face= "Brush Script MT" size="6">
-    <center><img src="profilepic.jpg" width="50%" height="55%">
-  <p> <b>Name: </b> Poompisek Natiphuwarak</p>
-  <p> <b>Nickname: </b> Poom</p>
-  <p> <b>Birthday:</b> 4 March 1996 (21 years old)</p>
-  <p> <b>Hobby:</b> Playing instrument, Sleeping and Eating </p>
-  <p> <b><a href="https://www.facebook.com/poom.nphu/">My Facebook Profile</a> </b></p>
-  <p> <b><a href="https://www.instagram.com/poom.phuvn/">My Instagram Profile</a> </b></p>
-    </center>
-    </font>
-</article>
-
-<footer>Copyright &copy; Poompisek Natiphuwarak 57102011056</footer>
-
+<body>
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card-2" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button">Home</a>
+    <div class="w3-right w3-hide-small">
+      <a href="#aboutme" class="w3-bar-item w3-button">About Me</a>
+      <a href="#favorite" class="w3-bar-item w3-button">Favorite</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
 </div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image" src="homepic2.jpg" alt="Hamburger Catering" width="1600" height="800">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h1 class="w3-xxlarge">Poompisek Natiphuwarak</h1>
+  </div>
+</header>
+
+<div class="w3-content" style="max-width:1100px">
+
+  <div class="w3-row w3-padding-64" id="aboutme">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="profilepic.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">About Me</h1><br>
+      <h5 class="w3-center"><b>Name: </b> Poompisek Natiphuwarak</h5>
+      <h5 class="w3-center"><b>Nickname: </b> Poom</h5>
+      <h5 class="w3-center"><b>Student ID: </b> 57102011056</h5>
+      <h5 class="w3-center"><b>Birthday: </b> 4 March 1996</h5>
+      <h5 class="w3-center"><b>Sex: </b> Male</h5>
+    </div>
+  </div>
+  
+  <hr>
+  
+  <div class="w3-row w3-padding-64" id="favorite">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Favorite</h1><br>
+      <h4>Playing instrument</h4>
+      <h4>Playing game</h4>
+      <h4>Watching movie</h4>
+      <h4>Listening to music</h4>  
+      <h4>Sleeping</h4> 
+    </div>
+    
+    <div class="w3-col l6 w3-padding-large">
+      <img src="favorpic.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" width="800" height="1050">
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="w3-container w3-padding-64" id="contact">
+    <h1>Contact</h1><br>
+
+    <a href="https://www.facebook.com/poom.nphu"><img src="fb.png" style="width:100px;height:100px;"></a>
+    <a href="https://twitter.com/Poompisek"><img src="tw.png" style="width:100px;height:100px;"></a>
+    <a href="https://www.instagram.com/poom.phuvn/"><img src="ig.png" style="width:100px;height:100px;"></a>
+  </div>
+  
+</div>
+
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p>Create by Poompisek Natiphuwarak 57102011056</p>
+</footer>
 
 </body>
 </html>
